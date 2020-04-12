@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAAA714F2443C2400044ADA3 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA714E2443C2400044ADA3 /* Tweet.swift */; };
+		DAAA71512443C31F0044ADA3 /* TweetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA71502443C31F0044ADA3 /* TweetData.swift */; };
 		DAAEA89A24427C38008A8C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA89924427C38008A8C1E /* AppDelegate.swift */; };
 		DAAEA89C24427C38008A8C1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA89B24427C38008A8C1E /* SceneDelegate.swift */; };
 		DAAEA89E24427C39008A8C1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA89D24427C39008A8C1E /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAAA714E2443C2400044ADA3 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		DAAA71502443C31F0044ADA3 /* TweetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetData.swift; sourceTree = "<group>"; };
 		DAAEA89624427C38008A8C1E /* twitter-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitter-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAEA89924427C38008A8C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAEA89B24427C38008A8C1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAAA714C2443C14B0044ADA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA714D2443C1520044ADA3 /* Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAAA714D2443C1520044ADA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA714E2443C2400044ADA3 /* Tweet.swift */,
+				DAAA71502443C31F0044ADA3 /* TweetData.swift */,
+			);
+			name = Model;
+			path = "../New Group/Model";
+			sourceTree = "<group>";
+		};
 		DAAEA88D24427C37008A8C1E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,7 @@
 		DAAEA89824427C38008A8C1E /* twitter-clone */ = {
 			isa = PBXGroup;
 			children = (
+				DAAA714C2443C14B0044ADA3 /* View */,
 				DAAEA89924427C38008A8C1E /* AppDelegate.swift */,
 				DAAEA89B24427C38008A8C1E /* SceneDelegate.swift */,
 				DAAEA89D24427C39008A8C1E /* ContentView.swift */,
@@ -268,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAEA89A24427C38008A8C1E /* AppDelegate.swift in Sources */,
+				DAAA71512443C31F0044ADA3 /* TweetData.swift in Sources */,
 				DAAEA89C24427C38008A8C1E /* SceneDelegate.swift in Sources */,
 				DAAEA89E24427C39008A8C1E /* ContentView.swift in Sources */,
+				DAAA714F2443C2400044ADA3 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +464,7 @@
 				DEVELOPMENT_TEAM = C6L5X9W35Q;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "twitter-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +485,7 @@
 				DEVELOPMENT_TEAM = C6L5X9W35Q;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "twitter-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
