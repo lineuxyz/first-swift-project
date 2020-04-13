@@ -45,30 +45,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct HomeView: View {
-    let tweets: [Tweet] = tweetdata
-    var body: some View {
-        List {
-            ForEach(tweets) { tweet in
-                VStack {
-                    Image("profile1")
-                    
-                    VStack {
-                        HStack {
-                            Text("ddsada")
-                            Text("ddsada")
-                        }
-                        Text("dasdsadas")
-                        
-                        HStack {
-                            Image("comment")
-                            Image("retweet")
-                            Image("heart")
-                            Image("share")
-                        }
-                    }
-                }
-        }
-    }
-}
-}
+
